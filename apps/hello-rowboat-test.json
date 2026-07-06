@@ -1,0 +1,8 @@
+{
+    "schemaVersion": 1,
+    "name": "hello-rowboat-test",
+    "owner": "ramnique",
+    "repo": "ramnique/stack-reload-bug",
+    "description": "Throwaway record for testing the validate-and-merge Action.",
+    "createdAt": "2026-07-06T10:23:30Z"
+}
