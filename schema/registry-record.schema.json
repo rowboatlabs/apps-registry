@@ -1,24 +1,48 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Rowboat Apps registry record",
-  "type": "object",
-  "additionalProperties": false,
-  "required": ["schemaVersion", "name", "owner", "repo", "createdAt"],
-  "properties": {
-    "schemaVersion": { "const": 1 },
-    "name": {
-      "type": "string",
-      "minLength": 3,
-      "maxLength": 64,
-      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
-    },
-    "owner": { "type": "string", "minLength": 1 },
-    "repo": {
-      "type": "string",
-      "pattern": "^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$"
-    },
-    "description": { "type": "string", "maxLength": 500 },
-    "iconUrl": { "type": "string", "format": "uri", "pattern": "^https://" },
-    "createdAt": { "type": "string" }
-  }
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://raw.githubusercontent.com/rowboatlabs/apps-registry/main/schema/registry-record.schema.json",
+    "title": "Rowboat apps registry record",
+    "description": "One record per published app: maps the globally unique package name to the GitHub repository hosting it. Versions are GitHub Releases on that repository, not registry data.",
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["schemaVersion", "name", "owner", "repo", "createdAt"],
+    "properties": {
+        "schemaVersion": {
+            "const": 1,
+            "description": "Record format version."
+        },
+        "name": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 64,
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+            "description": "Package identity. Globally unique and immutable once published; must equal the filename stem."
+        },
+        "owner": {
+            "type": "string",
+            "minLength": 1,
+            "description": "GitHub login of the publisher. Must equal the PR author."
+        },
+        "repo": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$",
+            "description": "Public GitHub repository hosting the app's releases, as owner/repo."
+        },
+        "description": {
+            "type": "string",
+            "maxLength": 500,
+            "description": "Short description shown in the catalog."
+        },
+        "iconUrl": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://",
+            "description": "HTTPS URL of the catalog listing icon."
+        },
+        "createdAt": {
+            "type": "string",
+            "format": "date-time",
+            "description": "ISO 8601 timestamp of first publication."
+        }
+    }
 }
