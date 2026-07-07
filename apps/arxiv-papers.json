@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "name": "arxiv-papers",
+  "owner": "hrsvrn",
+  "repo": "hrsvrn/arxiv-papers",
+  "description": "Search arXiv by topic and browse paper summaries",
+  "createdAt": "2026-07-07T15:34:02.349Z"
+}
