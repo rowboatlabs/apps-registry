@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "name": "news-aggregator",
+  "owner": "prakhar1605",
+  "repo": "prakhar1605/news-aggregator",
+  "description": "Top stories from Hacker News and Reddit, with tabs and a subreddit picker",
+  "createdAt": "2026-07-07T16:30:07.122Z"
+}
