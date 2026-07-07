@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "name": "weather-dashboard",
+  "owner": "prakhar1605",
+  "repo": "prakhar1605/weather-dashboard",
+  "description": "Current weather and 5-day forecast with city search, powered by Open-Meteo",
+  "createdAt": "2026-07-07T08:24:20.713Z"
+}
