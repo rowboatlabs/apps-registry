@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "name": "stock-analyzer",
+  "owner": "prakhar1605",
+  "repo": "prakhar1605/stock-analyzer",
+  "description": "Zero-setup watchlist stock analyzer with keyless quotes (Yahoo/Stooq) and Google News headlines",
+  "createdAt": "2026-07-07T13:12:35.557Z"
+}
