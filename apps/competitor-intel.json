@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "name": "competitor-intel",
+  "owner": "prakhar1605",
+  "repo": "prakhar1605/competitor-intel",
+  "description": "Live-fetch competitor news (Google News) and HN mentions.",
+  "createdAt": "2026-07-07T16:28:58.764Z"
+}
