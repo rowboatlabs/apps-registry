@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "name": "price-tracker",
+  "owner": "hrsvrn",
+  "repo": "hrsvrn/price-tracker",
+  "description": "Track product prices from books.toscrape.com. Paste a product URL and the app refreshes its price on a schedule.",
+  "createdAt": "2026-07-07T15:43:50.505Z"
+}
