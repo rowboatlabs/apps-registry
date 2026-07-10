@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "name": "pr-dashboard",
+  "owner": "Gagancreates",
+  "repo": "Gagancreates/pr-dashboard",
+  "description": "Pick a GitHub repo and get a live dashboard of its open pull requests",
+  "createdAt": "2026-07-10T10:00:00Z"
+}
