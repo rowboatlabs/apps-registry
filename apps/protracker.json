@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "name": "protracker",
+  "owner": "abdvills",
+  "repo": "abdvills/protracker",
+  "description": "Tell it what's going wrong in your training. It asks the follow-up questions a coach would, builds you a weekly plan, then tracks every session green or red and checks in on you.",
+  "createdAt": "2026-08-17T08:56:17.008Z"
+}
